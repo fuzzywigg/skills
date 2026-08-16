@@ -169,6 +169,5 @@ Tools I keep around but rarely use.
 
 ## License
 
-<!-- TODO: Confirm and add license. See https://choosealicense.com/ -->
-> ⚠️ License not yet specified in README. Please add a LICENSE file and update this section.
+[MIT](LICENSE) © 2026 Matt Pocock. This is a fork of [mattpocock/skills](https://github.com/mattpocock/skills).
 
