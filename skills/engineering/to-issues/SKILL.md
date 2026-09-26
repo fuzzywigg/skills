@@ -74,7 +74,7 @@ Avoid specific file paths or code snippets — they go stale fast. Exception: if
 
 ## Blocked by
 
-- A reference to the blocking ticket (if any)
+- A reference to the blocking issue (if any)
 
 Or "None - can start immediately" if no blockers.
 
