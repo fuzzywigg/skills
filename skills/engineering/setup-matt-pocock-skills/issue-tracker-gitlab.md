@@ -18,6 +18,6 @@ Infer the repo from `git remote -v` — `glab` does this automatically when run 
 
 Create a GitLab issue.
 
-## When a skill says "fetch the relevant ticket"
+## When a skill says "fetch from the issue tracker"
 
 Run `glab issue view <number> --comments`.
