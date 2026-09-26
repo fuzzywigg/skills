@@ -17,6 +17,6 @@ Infer the repo from `git remote -v` — `gh` does this automatically when run in
 
 Create a GitHub issue.
 
-## When a skill says "fetch the relevant ticket"
+## When a skill says "fetch from the issue tracker"
 
 Run `gh issue view <number> --comments`.
