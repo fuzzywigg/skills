@@ -13,12 +13,12 @@ A single tracked unit of work inside an **Issue tracker** — a bug, task, PRD, 
 _Avoid_: ticket (use only when quoting external systems that call them tickets)
 
 **Triage role**:
-A canonical state-machine label applied to an **Issue** during triage (e.g. `needs-triage`, `ready-for-agent`). Each role maps to a real label string in the **Issue tracker** via `docs/agents/triage-labels.md`.
+A canonical label applied to an **Issue** during triage. Two kinds: **category** roles (`bug`, `enhancement`) and **state** roles (`needs-triage`, `ready-for-agent`, and the other state-machine labels). Each role maps to a real label string in the **Issue tracker** via `docs/agents/triage-labels.md`.
 
 ## Relationships
 
 - An **Issue tracker** holds many **Issues**
-- An **Issue** carries one **Triage role** at a time
+- An **Issue** carries exactly one **category** triage role and one **state** triage role at a time
 
 ## Flagged ambiguities
 
