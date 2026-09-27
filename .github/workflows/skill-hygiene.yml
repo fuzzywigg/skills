@@ -1,0 +1,14 @@
+name: Skill package hygiene
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  skill-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require SKILL.md in each non-deprecated skill package
+        run: bash tests/check-skill-hygiene.sh
